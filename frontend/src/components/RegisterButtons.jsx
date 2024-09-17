@@ -1,12 +1,13 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom"; 
 
 function RegisterButtons() {
   const [email, setEmail] = useState("");
+  const navigate = useNavigate(); 
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    alert(`Email submitted: ${email}`);
-    // You can handle the form submission here, e.g., send the email to an API
+    navigate('/signup', { state: { email } }); 
   };
 
   return (

@@ -56,6 +56,7 @@ nav h2 {
   background-color: white;
   color: red;
   border: 1px solid red;
+  cursor: pointer;
 }
 
 .mainContainer {
@@ -78,6 +79,7 @@ nav h2 {
   font-size: 4rem;
   margin: 0px;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 .heroSubTitle {
@@ -85,6 +87,7 @@ nav h2 {
   font-size: 3rem;
   margin: 0px;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .heroText {
@@ -165,4 +168,52 @@ footer {
 
 .contact:hover {
   color: gray;
+  cursor: pointer;
+}
+
+.signup-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.signup-container h1 {
+  color: white;
+  font-size: 3rem;
+}
+
+.signup-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.signup-container input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-left: 10px;
+  width: 400px;
+  background-color: rgba(168, 168, 168, 0.162);
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  letter-spacing: 2px;
+}
+
+.signup-container button {
+  padding: 10px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
