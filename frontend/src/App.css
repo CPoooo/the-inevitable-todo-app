@@ -141,3 +141,28 @@ form button:hover {
   color: red;
   border: 1px solid red;
 }
+
+footer {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 1000;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.copyright {
+  margin-right: auto;
+  padding-left: 30px;
+}
+
+.contact {
+  all: unset;
+  padding-right: 30px;
+}
+
+.contact:hover {
+  color: gray;
+}
