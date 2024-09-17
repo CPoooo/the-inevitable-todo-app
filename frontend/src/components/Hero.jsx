@@ -1,11 +1,16 @@
-function Hero() {
+import RegisterButtons from "./RegisterButtons";
 
-    return (
-      <div>
-          <h1 className="hero">hero</h1>
+function Hero() {
+  return (
+    <div className="mainContainer">
+      <div className="hero">
+        <h1 className="heroTitle">OMG! Another Todo App?</h1>
+        <h2 className="heroSubTitle">Anyways... New here? Get started below</h2>
+        <p className="heroText">Returning members you know the drill sign in up top</p>
+        <RegisterButtons />
       </div>
-    );
-  }
-  
-  export default Hero;
-  
+    </div>
+  );
+}
+
+export default Hero;

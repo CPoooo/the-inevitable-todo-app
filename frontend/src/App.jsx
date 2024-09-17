@@ -9,7 +9,6 @@ function App() {
     <div>
       <Navbar className="navbar" />
       <Hero />
-      <RegisterButtons />
       <Footer className="footer" />
     </div>
   );
